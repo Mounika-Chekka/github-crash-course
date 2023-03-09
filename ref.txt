@@ -2,12 +2,16 @@ git init            -> to initialise cthe commit
 rm -rf .git*        -> to remove git access
 git branch          -> to find out all branches
 git reset --hard <id>  -> it deletes all the commits since the mentioned id and points the head to the mentioned id
+git checkout <id>      -> temporarily move back to commit <id>
+git revert <id>        -> revert the changes of commit <id>
+git reset <id>         ->Undo commits upto commit <id> by deleting commits
+
 
 #branches
 git branch <name>      ->creates new branch
 git merge <name>       ->merge the branch with the master branch 
 git branch             ->list of all branches
 git checkout <branch-name>   ->to redirect to the particular branch 
-
-
-
+git branch -D <name>         ->delete a particular branch
+git checkout -b <name>
+(merging created one more commit. So we need to add message for that)
