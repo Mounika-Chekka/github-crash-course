@@ -1,0 +1,4 @@
+git init            -> to initialise cthe commit
+rm -rf .git*        -> to remove git access
+git branch          -> to find out all branches
+
