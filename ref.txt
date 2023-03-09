@@ -15,3 +15,14 @@ git checkout <branch-name>   ->to redirect to the particular branch
 git branch -D <name>         ->delete a particular branch
 git checkout -b <name>
 (merging created one more commit. So we need to add message for that)
+
+
+
+
+#remote -- local machine
+git remote add <identifier> <link>       ->to establish connection with cloud
+git push                                 ->to push local commits into cloud 
+git push <identifier> <branchname_which_we_want_to_copy_to_remote>
+
+
+
